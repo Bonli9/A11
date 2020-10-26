@@ -1,0 +1,91 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	width: 600px;
+	margin-top:3px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid;
+	color: #931420;
+	background-color:#fffded;
+	text-indent: 5px;
+}
+header {
+	display: block;
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: repeating-linear-gradient( 30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	text-align: center;
+	vertical-align: top;
+}
+header image{
+	padding: 0 30px;
+	float: left;
+	margin: 0;
+	height: 80px;
+}
+
+main h1 {
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+	padding: .3em 0;
+	margin-right: 5em;
+	vertical-align: top;
+}
+
+
+main h2{
+		font-size: 130%;
+		color: #800000;
+		padding-bottom: 0.25em;
+		padding-top: 0.5em;
+	}
+main h3{
+		font-size: 105%;
+		padding-bottom: 0.25em;
+
+	}
+main img{
+		height: 75px;
+		width: 75px;
+		padding-bottom: 1em;
+	}
+main p{
+		padding-bottom: 0.5em;
+	}
+main blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+}
+main ul{
+	padding-bottom: 0.25em;
+	padding-left: 1.25em;
+}
+main li{
+	padding-bottom: 0.35em;
+	text-indent: 10px;
+}
+	a:link{
+		color:green;
+		text-decoration: none;
+	}
+	.li a:hover{
+		font-style:italic;
+	}
+	main{
+	clear:left;
+}
+/* the styles for the footer */
+footer{
+	text-align: center;
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+	background-color:darkred;
+	color: white;
+	padding-bottom: 1em;
+	padding-top: 1em;
+
+}
